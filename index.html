@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" />
+    <title>Password Generator</title>
+</head>
+<body>
+
+    <h1>Password Generator</h1>
+
+    <div id="password-container">
+        <div id="password"></div>
+        <button type="button" id="copy-button">Copy</button>
+    </div>
+
+    <button type="button" id="generate-password-button">Generate Password</button>
+
+    <div id="password-inputs">
+        <label>
+            Include Symbols?
+            <input type="checkbox" id="include-symbols">
+        </label>
+        <label for="password-length">Password Length <input type="number" id="password-length"></label>
+    </div>
+
+    <script src="main.mjs" type="module"></script>
+    
+</body>
+</html>
